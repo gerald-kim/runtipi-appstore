@@ -23,7 +23,7 @@ services:
       PAPERLESS_TIKA_GOTENBERG_ENDPOINT: http://gotenberg:3000
       PAPERLESS_TIKA_ENDPOINT: http://tika:9998
       PAPERLESS_URL: ${APP_PROTOCOL:-http}://${APP_DOMAIN}
-      PAPERLESS_OCR_LANGUAGE: kor
+      PAPERLESS_OCR_LANGUAGES: kor eng
       COMPOSE_PROJECT_NAME: paperless-ngx
     networks:
         - tipi_main_network
