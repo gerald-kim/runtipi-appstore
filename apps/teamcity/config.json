@@ -1,0 +1,22 @@
+{
+  "$schema": "../schema.json",
+  "name": "Teamcity Server",
+  "available": true,
+  "exposable": true,
+  "port": 8111,
+  "id": "teamcity",
+  "tipi_version": 13,
+  "version": "2024.03.1",
+  "categories": [
+    "utilities"
+  ],
+  "description": "",
+  "short_desc": "TeamCity is a continuous integration and continuous delivery server developed by JetBrains.",
+  "author": "Gerald Kim",
+  "source": "https://hub.docker.com/r/jetbrains/teamcity-server/",
+  "website": "https://www.jetbrains.com/teamcity/",
+  "form_fields": [],
+  "supported_architectures": [
+    "amd64"
+  ]
+}
