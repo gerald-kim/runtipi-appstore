@@ -9,6 +9,7 @@ services:
       - db-teamcity
     ports:
       - ${APP_PORT}:8111
+    user: "1000:1000"
     # dns:
     #   - ${DNS_IP}
     volumes:
