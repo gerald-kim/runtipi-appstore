@@ -1,0 +1,19 @@
+{
+    "$schema": "../schema.json",
+    "name": "13ft",
+    "available": true,
+    "exposable": true,
+    "port": 5000,
+    "id": "13ft",
+    "tipi_version": 2,
+    "version": "latest",
+    "categories": ["utilities"],
+    "description": "self hosted server that has a simple but powerful interface to block ads, paywalls, and other nonsense",
+    "short_desc": "self hosted server that has a simple but powerful interface to block ads, paywalls, and other nonsense",
+    "author": "gerald kim",
+    "source": "https://github.com/wasi-master/13ft",
+    "form_fields": [],
+    "supported_architectures": ["amd64"],
+    "created_at": 1691943801422,
+    "updated_at": 1723566284000
+}
